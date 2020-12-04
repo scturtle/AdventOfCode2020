@@ -2,6 +2,11 @@ use std::fs::{read_to_string, File};
 use std::io::{Error, ErrorKind, Write};
 use std::path::Path;
 
+#[allow(dead_code)]
+pub fn get_test_input() -> std::io::Result<String> {
+    read_to_string("test.txt")
+}
+
 pub fn get_input(day: i8) -> std::io::Result<String> {
     dotenv::dotenv().expect(".env");
     let session = std::env::var("SESSION").expect("env SESSION");
