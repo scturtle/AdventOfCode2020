@@ -16,7 +16,8 @@ mod common;
 // mod day13;
 // mod day14;
 // mod day15;
-mod day16;
+// mod day16;
+mod day17;
 
 fn main() {
     // day01::run();
@@ -34,5 +35,6 @@ fn main() {
     // day13::run();
     // day14::run();
     // day15::run();
-    day16::run();
+    // day16::run();
+    day17::run();
 }
