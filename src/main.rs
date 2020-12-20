@@ -1,6 +1,5 @@
 #![allow(non_snake_case)]
 #![feature(stmt_expr_attributes)] // to use #[rustfmt::skip]
-#![feature(generators, generator_trait)]
 mod common;
 // mod day01;
 // mod day02;
@@ -20,7 +19,8 @@ mod common;
 // mod day16;
 // mod day17;
 // mod day18;
-mod day19;
+// mod day19;
+mod day20;
 
 fn main() {
     // day01::run();
@@ -41,5 +41,6 @@ fn main() {
     // day16::run();
     // day17::run();
     // day18::run();
-    day19::run();
+    // day19::run();
+    day20::run();
 }
